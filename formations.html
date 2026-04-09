@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<script src="script.js"></script>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="navbar-container">
+
+    <div class="logo">
+      <img src="images/logo.png" alt="logo">
+
+      <div class="logo-text">
+        <span class="title">SINA & PRESTIGE</span>
+        <span class="subtitle">ALFREDHRCONSULTING</span>
+      </div>
+    </div>
+
+    <nav class="nav-center">
+      <a href="index.html">Accueil</a>
+      <a href="formations.html">Formations</a>
+      <a href="entreprise.html">Entreprise & Partenaires</a>
+      <a href="Qualité.html">Qualité & accessibilité</a>
+      <a href="a propos.html">À propos</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<section class="formations">
+
+  <div class="formations-left">
+    <div class="formations-content">
+      <h1>Nos Formations</h1>
+      <h2>Développer vos compétences</h2>
+      <p>
+        Des formations conçues pour vous rendre opérationnel, encadrées
+        par des experts du terrain
+      </p>
+
+      <div class="formations-tags">
+        <div class="tags-track">
+
+          <div class="formation-tag">
+    <h3>Une approche opérationnelle</h3>
+    <p>Des contenus pensés pour être appliqués rapidement</p>
+  </div>
+
+  <div class="formation-tag">
+    <h3>Une pédagogie contextualisée</h3>
+    <p>Cas concrets, mises en situation, outils professionnels</p>
+  </div>
+
+  <div class="formation-tag">
+    <h3>Un accompagnement humain</h3>
+    <p>Suivi individualisé avant, pendant et après le parcours</p>
+  </div>
+
+          <!-- duplication -->
+          <div class="formation-tag">
+    <h3>Une approche opérationnelle</h3>
+    <p>Des contenus pensés pour être appliqués rapidement</p>
+  </div>
+
+  <div class="formation-tag">
+    <h3>Une pédagogie contextualisée</h3>
+    <p>Cas concrets, mises en situation, outils professionnels</p>
+  </div>
+
+  <div class="formation-tag">
+    <h3>Un accompagnement humain</h3>
+    <p>Suivi individualisé avant, pendant et après le parcours</p>
+  </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ✅ PARTIE DROITE FIX -->
+  <div class="formations-right">
+    <div class="formations-gradient"></div>
+    <img src="images/formations-hero.jpg" alt="Nos formations">
+  </div>
+
+</section>
+
+  <section class="formations-search-section">
+  <div class="formations-search-bar">
+
+    <div class="formations-search-input">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="searchInput" placeholder="Recherche...">
+    </div>
+    
+  <button type="button" class="reset-btn" id="resetBtn">
+    Réinitialiser
+  </button>
+
+    <select class="formations-search-filter" id="categoryFilter">
+      <option value="all">Catégorie</option>
+      <option value="rh">RH</option>
+      <option value="ia">IA</option>
+    </select>
+
+    <div class="duration-filter">
+    <button type="button" class="duration-btn" id="durationBtn">
+    Durée
+  </button>
+
+  <div class="duration-dropdown" id="durationDropdown">
+    <label>Durée max : <span id="durationValue">6</span> mois</label>
+
+    <input type="range" id="durationRange" min="1" max="12" value="6">
+  </div>
+
+    <button type="button" class="formations-search-btn" id="searchBtn">
+      Rechercher
+    </button>
+ </div>
+
+</div>
+</section>
+
+<section class="formations-cards-section">
+  <div class="formations-cards-container">
+
+    <div class="formation-card" data-category="ia" data-duration="8">
+      <img src="assets/images/card-1.jpg" alt="Formation IA">
+      <div class="formation-card-content">
+        <h3>Formation IA</h3>
+        <p class="formation-duration">8 semaines</p>
+        <a href="#">Voir le programme...</a>
+      </div>
+    </div>
+
+    <div class="formation-card" data-category=" rh"data-duration="5">
+      <img src="assets/images/card-2.jpg" alt="Formation RH">
+      <div class="formation-card-content">
+        <h3>Formation RH</h3>
+        <p class="formation-duration">6 semaines</p>
+        <a href="#">Voir le programme...</a>
+      </div>
+    </div>
+
+    <div class="formation-card" data-category="ia">
+      <img src="assets/images/card-3.jpg" alt="Formation IA">
+      <div class="formation-card-content">
+        <h3>Formation IA avancée</h3>
+        <p class="formation-duration">10 semaines</p>
+        <a href="#">Voir le programme...</a>
+      </div>
+    </div>
+
+    <div class="formation-card" data-category="rh">
+      <img src="assets/images/card-4.jpg" alt="Formation RH">
+      <div class="formation-card-content">
+        <h3>Formation RH opérationnelle</h3>
+        <p class="formation-duration">5 semaines</p>
+        <a href="#">Voir le programme...</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</section>
+
+<section class="RPG-section"></section>
+<section class="RPG-section">
+
+  <div class="RPG-container">
+
+    <h3>Qui sommes nous ?</h3>
+
+    <p>
+      Organisme de formation déclaré sous le numéro NDA : 11 75 73 30 575<br>
+      <strong>SINA & PRESTIGE</strong> accompagne les professionnels, entreprises et établissements
+      dans le développement des compétences et les évolutions de carrière.
+    </p>
+
+    <div class="RPG-links-top">
+      <a href="a propos.html">A propos de nous ...</a>
+      <a href="Contact.html">Nous contacter</a>
+    </div>
+
+    <div class="RPG-divider"></div>
+
+    <div class="RPG-links-bottom">
+      <a href="confidentialite.html">Politique de confidentialité</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgv.html">CGV / CGU</a>
+      <a href="reclamations.html">Réclamations</a>
+      <a href="accessibilite.html">Accessibilité / Handicap</a>
+    </div>
+
+  </div>
+  <div class="RPG-bottom-bar">
+    © 2026 SINA & PRESTIGE - Tous droits réservés
+  </div>
+
+</section>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
