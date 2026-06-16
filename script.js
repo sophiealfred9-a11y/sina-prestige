@@ -105,9 +105,38 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
+
+
+
+/* burger mobile */
   const burger = document.getElementById("burger");
   const nav = document.querySelector(".nav-links");
 
   burger.addEventListener("click", () => {
     nav.classList.toggle("active");
   });
+
+
+
+
+
+/* burger formation */
+  const dropdown = document.querySelector('.dropdown > a');
+
+dropdown.addEventListener('click', function(e){
+
+  if(window.innerWidth <= 768){
+
+    e.preventDefault();
+
+    this.parentElement.classList.toggle('active');
+
+  }
+
+});
+
+
+
+
+/* Floating CTA Banner */
