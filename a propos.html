@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sina&Prestige</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font luxe -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre Baskerville:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  
+</head>
+
+
+
+<body>
+
+
+  
+<div class="floating-banner" id="floatingBanner">
+
+  <div class="banner-text">
+    <h4>
+      Sina & Prestige — Organisme de formation certifié Qualiopi
+    </h4>
+
+    <p>
+      Catalogue • Webinaires • Recrutement • Accompagnement RH • Qualité & accessibilité
+    </p>
+  </div>
+
+  <a href="Contact.html" class="banner-btn">
+    Demander un devis
+  </a>
+
+  <button
+    class="banner-close"
+    onclick="document.getElementById('floatingBanner').style.display='none'">
+    ✕
+  </button>
+
+</div>
+
+
+
+
+
+<header class="bg-white fixed top-0 left-0 w-full z-50">
+ <div class="max-w-[1600px] mx-auto flex items-center justify-between px-4 py-3">
+  
+    
+    <!-- LOGO -->
+    <div class="flex items-center gap-2">
+      <img src="images/logo.png" alt="logo" class="h-10 w-auto">
+
+      <div class="flex flex-col leading-tight">
+        <span class="text-sm font-bold text-[#2c4f73]">SINA & PRESTIGE</span>
+        <span class="text-xs text-gray-500">ALFREDHRCONSULTING</span>
+      </div>
+    </div class="flex items-center gap-1">
+    <img src="images/Qualiopi.jpg"
+  alt="logo"
+  class="hidden lg:block h-12 w-auto opacity-100"
+/>
+
+    <!-- NAV DESKTOP -->
+    <nav class="hidden md:flex gap-4 text-[12px] text-[#2c4f73] font-medium">
+      <a href="index.html">Accueil</a>
+       <a href="Recrutement.html">Recrutement</a>
+       <a href="webiniaires-masterclass.html">Webnaires & Masterclass</a>
+       <a href="accompagnement-RH.html">Accompagnement RH</a>
+        
+      
+     <div class="dropdown">
+  <a href="formations.html">
+    Formations 
+  </a>
+
+  <ul class="dropdown-menu">
+
+    <li>
+      <a href="formations-entreprises.html">
+        Pour les entreprises
+      </a>
+    </li>
+
+    <li>
+      <a href="formations-ecoles.html">
+       Pour les écoles
+      </a>
+    </li>
+
+    <li>
+      <a href="formations-professionnels.html">
+        Pour les professionnels / candidats
+      </a>
+    </li>
+
+    <li>
+      <a href="formations-organismes.html">
+        Pour les organismes de formation / consultants
+      </a>
+    </li>
+
+  </ul>
+  </div>
+
+
+
+      <a href="entreprise.html">Entreprise & Partenaires</a>
+      <a href="Qualité.html">Qualité & accessibilité</a>
+      <a href="a propos.html">À propos</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+
+    <!-- BURGER -->
+    <button id="burger" class="md:hidden text-2xl text-[#2c4f73]">
+      ☰
+    </button>
+
+  </div>
+
+  <!-- MENU MOBILE -->
+  <div id="mobileMenu" class="hidden flex flex-col items-center gap-4 pb-4 md:hidden text-[#2c4f73]">
+
+    <a href="index.html">Accueil</a>
+    <a href="formations.html">Formations</a>
+    <a href="entreprise.html">Entreprise & Partenaires</a>
+    <a href="Qualité.html">Qualité & accessibilité</a>
+    <a href="a propos.html">À propos</a>
+    <a href="Contact.html">Contact</a>
+
+  </div>
+</header>
+
+<script>
+  const burger = document.getElementById("burger");
+  const menu = document.getElementById("mobileMenu");
+
+  burger.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>
+
+
+
+
+
+<section class="about-page">
+
+  <!-- HERO -->
+  <div class="about-hero">
+    <h1>Sina & Prestige Formations</h1>
+    <p>
+      Centre de formation et d’expertise RH porté par Alfred HR Consulting
+    </p>
+  </div>
+
+  <!-- QUI SOMMES NOUS -->
+  <div class="about-section">
+    <div class="about-grid">
+
+      <div class="about-text">
+        <h2>Qui sommes-nous ?</h2>
+
+        <p>
+          Sina & Prestige Formations est un centre de formation professionnelle porté par Alfred HR Consulting,
+          cabinet de conseil en Ressources Humaines et management.
+        </p>
+
+        <p>
+          La structure accompagne les entreprises, les écoles et les professionnels dans le développement
+          des compétences, la professionnalisation et l’adaptation aux évolutions du marché du travail.
+        </p>
+
+        <p>
+          Notre ambition est de proposer des formations concrètes, humaines et opérationnelles,
+          construites à partir des réalités du terrain.
+        </p>
+
+        <p>
+          Nous répondons à un constat clair : un décalage entre les besoins réels du marché
+          et les formats de formation traditionnels.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img src="images/about1.png">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- POURQUOI NOUS -->
+  <div class="about-section light">
+    <h2 class="center">Pourquoi nous choisir ?</h2>
+
+    <div class="values-grid">
+
+      <div class="value-card">
+        <p>✔️ Formations conçues par des experts terrain</p>
+      </div>
+
+      <div class="value-card">
+        <p>✔️ Approche RH humaine et stratégique</p>
+      </div>
+
+      <div class="value-card">
+        <p>✔️ Contenus personnalisables</p>
+      </div>
+
+      <div class="value-card">
+        <p>✔️ Formats présentiel, distanciel et hybride</p>
+      </div>
+
+      <div class="value-card">
+        <p>✔️ Intégration de l’IA et des enjeux actuels</p>
+      </div>
+
+      <div class="value-card">
+        <p>✔️ Centre porté par un cabinet RH reconnu</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FONDATRICE -->
+  <div class="about-section">
+    <div class="about-grid reverse">
+
+      <div class="about-image">
+        <img src="images/about2.jpg">
+      </div>
+
+      <div class="about-text">
+        <h2>La fondatrice</h2>
+
+        <p>
+          Sina & Prestige Formations est fondé par Varvara Alfred,
+          consultante en Ressources Humaines et en management.
+        </p>
+
+        <p>
+          Forte d’expériences en ESN, en cabinet de conseil et en interaction avec des acteurs publics,
+          elle a accompagné de nombreux profils en reconversion professionnelle.
+        </p>
+
+        <p>
+          Elle a notamment travaillé sur des dispositifs de formation et d’intégration comme les POEI,
+          en lien avec les entreprises, les organismes de formation et les institutions.
+        </p>
+
+        <p>
+          Son expertise terrain et stratégique constitue aujourd’hui le socle du projet.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- AXES -->
+  <div class="about-values">
+    <h2>Nos 3 axes d’intervention</h2>
+
+    <div class="values-grid">
+
+      <div class="value-card">
+        <h3>Formations courtes</h3>
+        <p>
+          Des formats courts et impactants pour sensibiliser, structurer et agir rapidement.
+        </p>
+      </div>
+
+      <div class="value-card">
+        <h3>Formations professionnalisantes</h3>
+        <p>
+          Des parcours complets pour développer des compétences durables.
+        </p>
+      </div>
+
+      <div class="value-card">
+        <h3>Mise en relation</h3>
+        <p>
+          Un réseau de formateurs et d’acteurs pour répondre aux besoins du marché.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- VISION -->
+  <div class="about-credibility">
+
+    <h2>Notre vision</h2>
+
+    <p>
+      Nous considérons la formation comme un levier stratégique au service de l’employabilité,
+      de la performance et de l’évolution professionnelle.
+    </p>
+
+    <p>
+      Notre approche est humaine, responsable et connectée aux réalités du terrain.
+    </p>
+
+    <p>
+      Nous favorisons l’inclusion, l’égalité des chances et l’intégration des nouvelles technologies
+      comme l’intelligence artificielle de manière encadrée et éthique.
+    </p>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="about-cta">
+    <a href="contact.html">Nous contacter</a>
+  </div>
+
+</section>
+
+
+
+<section class="RPG-section"></section>
+<section class="RPG-section">
+
+  <div class="RPG-container">
+
+    <h3>Qui sommes nous ?</h3>
+
+    <p>
+      Organisme de formation déclaré sous le numéro NDA : 11 75 73 30 575<br>
+      <strong>SINA & PRESTIGE</strong> accompagne les professionnels, entreprises et établissements
+      dans le développement des compétences et les évolutions de carrière.
+    </p>
+
+    <div class="RPG-links-top">
+      <a href="a propos.html">A propos de nous ...</a>
+      <a href="Contact.html">Nous contacter</a>
+    </div>
+
+    <div class="RPG-divider"></div>
+
+    <div class="RPG-links-bottom">
+      <a href="confidentialite.html">Politique de confidentialité</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="cgv.html">CGV / CGU</a>
+      <a href="reclamations.html">Réclamations</a>
+      <a href="accessibilite.html">Accessibilité / Handicap</a>
+    </div>
+
+  </div>
+  <div class="RPG-bottom-bar">
+    © 2026 SINA & PRESTIGE - Tous droits réservés
+  </div>
+
+</section>
+
+
+
+
+</body>
+</html>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
