@@ -2428,13 +2428,11 @@ CARTE FORMATION
 
 .RPG-qualiopi{
 
-    width:300px;
+    width:320px;
 
-    background:rgba(255,255,255,.08);
+    background:#3b5874;
 
     border:1px solid rgba(255,255,255,.15);
-
-    backdrop-filter:blur(8px);
 
     border-radius:18px;
 
@@ -2443,6 +2441,8 @@ CARTE FORMATION
     text-align:center;
 
     flex-shrink:0;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
 }
 
 .RPG-qualiopi img{
