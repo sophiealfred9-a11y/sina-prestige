@@ -1,146 +1,101 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Sina&Prestige</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- CSS -->
-   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css">
-  
-  <!-- Font luxe -->
-  <link href="https://fonts.googleapis.com/css2?family=Libre Baskerville:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-  
+  <link rel="icon" type="image/png" href="Images/Logo_blanc-site.png">
+<meta charset="utf-8"/>
+<title>Sina&amp;Prestige</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="style.css" rel="stylesheet"/>
+<!-- Font luxe -->
+<link href="https://fonts.googleapis.com/css2?family=Libre Baskerville:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
 </head>
-
-
-
 <body>
-
-
-  
 <div class="floating-banner" id="floatingBanner">
-
-  <div class="banner-text">
-    <h4>
-      Sina & Prestige — Organisme de formation certifié Qualiopi
+<div class="banner-text">
+<h4>
+      Sina &amp; Prestige — Organisme de formation certifié Qualiopi
     </h4>
-
-    <p>
-      Catalogue • Webinaires • Recrutement • Accompagnement RH • Qualité & accessibilité
+<p>
+      Catalogue • Webinaires • Recrutement • Accompagnement RH • Qualité &amp; accessibilité
     </p>
-  </div>
-
-  <a href="Contact.html" class="banner-btn">
+</div>
+<a class="banner-btn" href="Contact.html">
     Demander un devis
   </a>
-
-  <button
-    class="banner-close"
-    onclick="document.getElementById('floatingBanner').style.display='none'">
+<button class="banner-close" onclick="document.getElementById('floatingBanner').style.display='none'">
     ✕
   </button>
-
 </div>
-
-
-
-
-
 <header class="bg-white fixed top-0 left-0 w-full z-50">
- <div class="max-w-[1600px] mx-auto flex items-center justify-between px-4 py-3">
-  
-    
-    <!-- LOGO -->
-    <div class="flex items-center gap-2">
-
-  <a href="index.html" class="flex items-center gap-2">
-
-    <img src="Images/logo.png" alt="logo" class="h-10 w-auto">
-
-    <div class="flex flex-col leading-tight">
-      <span class="text-sm font-bold text-[#2c4f73]">SINA & PRESTIGE</span>
-      <span class="text-xs text-gray-500">ALFREDHRCONSULTING</span>
-    </div>
-    </div class="flex items-center gap-1">
-    <img src="Images/Qualiopi.jpg"
-  alt="logo"
-  class="hidden lg:block h-12 w-auto opacity-100"
-/>
-
-    <!-- NAV DESKTOP -->
-    <nav class="hidden md:flex gap-4 text-[12px] text-[#2c4f73] font-medium">
-      <a href="index.html">Accueil</a>
-       <a href="Recrutement.html">Recrutement</a>
-       <a href="webiniaires-masterclass.html">Webinaires & Masterclass</a>
-       <a href="accompagnement-RH.html">Accompagnement RH</a>
-        
-      
-     <div class="dropdown">
-  <a href="formations.html">
+<div class="max-w-[1600px] mx-auto flex items-center justify-between px-4 py-3">
+<!-- LOGO -->
+<div class="flex items-center gap-2">
+<a class="flex items-center gap-2" href="index.html">
+<img alt="logo" class="h-10 w-auto" src="Images/logo.png"/>
+<div class="flex flex-col leading-tight">
+<span class="text-sm font-bold text-[#2c4f73]">SINA &amp; PRESTIGE</span>
+<span class="text-xs text-gray-500">ALFREDHRCONSULTING</span>
+</div>
+</a></div>
+<img alt="logo" class="hidden lg:block h-12 w-auto opacity-100" src="Images/Qualiopi.jpg">
+<!-- NAV DESKTOP -->
+<nav class="hidden md:flex gap-4 text-[12px] text-[#2c4f73] font-medium">
+<a href="index.html">Accueil</a>
+<a href="Recrutement.html">Recrutement</a>
+<a href="webiniaires-masterclass.html">Webnaires &amp; Masterclass</a>
+<a href="accompagnement-RH.html">Accompagnement RH</a>
+<div class="dropdown">
+<a href="formations.html">
     Formations 
   </a>
-
-  <ul class="dropdown-menu">
-
-    <li>
-      <a href="formations-entreprises.html">
+<ul class="dropdown-menu">
+<li>
+<a href="formations-entreprises.html">
         Pour les entreprises
       </a>
-    </li>
-
-    <li>
-      <a href="formations-ecoles.html">
+</li>
+<li>
+<a href="formations-ecoles.html">
        Pour les écoles
       </a>
-    </li>
-
-    <li>
-      <a href="formations-professionnels.html">
+</li>
+<li>
+<a href="formations-professionnels.html">
         Pour les professionnels / candidats
       </a>
-    </li>
-
-    <li>
-      <a href="formations-organismes.html">
+</li>
+<li>
+<a href="formations-organismes.html">
         Pour les organismes de formation / consultants
       </a>
-    </li>
-
-  </ul>
-  </div>
-
-
-
-      <a href="entreprise.html">Entreprise & Partenaires</a>
-      <a href="Qualité.html">Qualité & accessibilité</a>
-      <a href="a propos.html">À propos</a>
-      <a href="Contact.html">Contact</a>
-    </nav>
-
-    <!-- BURGER -->
-    <button id="burger" class="md:hidden text-2xl text-[#2c4f73]">
+</li>
+</ul>
+</div>
+<a href="entreprise.html">Entreprise &amp; Partenaires</a>
+<a href="Qualité.html">Qualité &amp; accessibilité</a>
+<a href="a propos.html">À propos</a>
+<a href="Contact.html">Contact</a>
+</nav>
+<!-- BURGER -->
+<button class="md:hidden text-2xl text-[#2c4f73]" id="burger">
       ☰
     </button>
-
-  </div>
-
-  <!-- MENU MOBILE -->
-  <div id="mobileMenu" class="hidden flex flex-col items-center gap-4 pb-4 md:hidden text-[#2c4f73]">
-
-    <a href="index.html">Accueil</a>
-    <a href="formations.html">Formations</a>
-    <a href="entreprise.html">Entreprise & Partenaires</a>
-    <a href="Qualité.html">Qualité & accessibilité</a>
-    <a href="a propos.html">À propos</a>
-    <a href="Contact.html">Contact</a>
-
-  </div>
+</img></div>
+<!-- MENU MOBILE -->
+<div class="hidden flex flex-col items-center gap-4 pb-4 md:hidden text-[#2c4f73]" id="mobileMenu">
+<a href="index.html">Accueil</a>
+<a href="formations.html">Formations</a>
+<a href="entreprise.html">Entreprise &amp; Partenaires</a>
+<a href="Qualité.html">Qualité &amp; accessibilité</a>
+<a href="a propos.html">À propos</a>
+<a href="Contact.html">Contact</a>
+</div>
 </header>
+<div class="site-container">
 
 <script>
   const burger = document.getElementById("burger");
@@ -150,596 +105,430 @@
     menu.classList.toggle("hidden");
   });
 </script>
-
-
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-left">
-  
-  <div class="hero-text">
-      <h1>
-        Former. Recruter. Accompagner. Révéler les talents.<br>
-        
-      </h1>
-
-      <h1 class="highlight">
+<div class="hero-left">
+<div class="hero-text">
+<h1>
+        Former. Recruter. Accompagner. Révéler les talents.<br/>
+</h1>
+<h1 class="highlight">
         Par AlfredHRConsulting
       </h1>
-
-      <p class="hero-subtext">
-  Organisme de formation certifié Qualiopi, Sina & Prestige
+<p class="hero-subtext">
+  Organisme de formation certifié Qualiopi, Sina &amp; Prestige
 accompagne les entreprises, salariés, demandeurs d’emploi,
 particuliers, écoles et partenaires dans leurs projets formation,
 RH, IA, recrutement et employabilité.
 </p>
-    
- <a href="formations.html" class="hero-btn">
+<a class="hero-btn" href="formations.html">
   Découvrir nos formations
 </a>
 </div>
-<a href="Contact.html" class="hero-btn2">
+<a class="hero-btn2" href="Contact.html">
   Nous contacter</a>
 </div>
 
-  </div>
-  <div class="hero-right">
-     <div class="hero-gradient"></div> <!-- 🔥 dégradé -->
-    <img src="/Images/hero.png" alt="Image formation">
-
-
-
+<div class="hero-right">
+<div class="hero-gradient"></div> <!-- 🔥 dégradé -->
+<img alt="Image formation" src="/Images/hero.png"/>
 </div>
-
 </section>
-
 <section class="hero-2">
-
 <div class="hero-info-bar">
-
- <div class="info-item">
-  <p>
-    <strong>Former vos équipes</strong><br>
+<div class="info-item">
+<p>
+<strong>Former vos équipes</strong><br/>
     Formations en RH, IA, informatique, réseaux, marketing,
     recrutement, QVCT et prévention des risques professionnels.
   </p>
 </div>
-
 <div class="info-item">
-  <p>
-    <strong>Recruter et sourcer des profils</strong><br>
+<p>
+<strong>Recruter et sourcer des profils</strong><br/>
     Profils IT, IA, commerciaux, formateurs, alternants et stagiaires.
   </p>
 </div>
-
 <div class="info-item">
-  <p>
-    <strong>Accompagner vos projets RH</strong><br>
+<p>
+<strong>Accompagner vos projets RH</strong><br/>
     Qualité, organisation, inclusion, process RH,
     appels d'offres et amélioration continue.
   </p>
 </div>
-
 <div class="info-item">
-  <p>
-    <strong>Préparer vos talents à l'emploi</strong><br>
+<p>
+<strong>Préparer vos talents à l'emploi</strong><br/>
     CV, LinkedIn, alternance, entretien,
     reconversion et posture professionnelle.
   </p>
 </div>
 </div>
 </section>
-
-
 <!-- PRODUITS -->
 <section class="products">
-
-  <div class="products-container">
-
-    <div class="products-text">
-
-      <span class="small-title">Nos Programmes</span>
-
-      <h2>NOS FORMATIONS</h2>
-
-      <p>
+<div class="products-container">
+<div class="products-text">
+<span class="small-title">Nos Programmes</span>
+<h2>NOS FORMATIONS</h2>
+<p>
         Des parcours complets, adaptés aux besoins du marché et accessibles à différents niveaux.
       </p>
-
-    </div>
-
-    <div class="formations-cards-container">
-
-      <!-- CARTE 1 -->
-
-      <div class="formations-cards-container">
-
-  <!-- Carte 1 -->
-
-  <div class="formation-card" data-category="gestion" data-duration="8">
-    <img src="Images/Formation-gestion.png" alt="Gestion de projet">
-
-    <div class="formation-card-content">
-      <h3>Gestion de projet & certifications</h3>
-
-      <h4>
+</div>
+<div class="formations-cards-container">
+<!-- CARTE 1 -->
+<div class="formations-cards-container">
+<!-- Carte 1 -->
+<div class="formation-card" data-category="gestion" data-duration="8">
+<img alt="Gestion de projet" src="images/Formation-gestion.png"/>
+<div class="formation-card-content">
+<h3>Gestion de projet &amp; certifications</h3>
+<h4>
         Scrum Master PSM, PMP, Prince2, Business Analyst
       </h4>
-
-      <p class="formation-duration">
+<p class="formation-duration">
         8 semaines
       </p>
-
-
-<a href="Formation-gestion.html" class="card-btn">
+<a class="card-btn" href="Formation-gestion.html">
   Je découvre la formation
 </a>
-    </div>
-  </div>
-
-  <!-- Carte 2 -->
-
-  <div class="formation-card" data-category="rh" data-duration="6">
-    <img src="Images/formation-rh.png" alt="Formation RH">
-
-    <div class="formation-card-content">
-      <h3>RH, conformité sociale & prévention</h3>
-
-      <h4>
+</div>
+</div>
+<!-- Carte 2 -->
+<div class="formation-card" data-category="rh" data-duration="6">
+<img alt="Formation RH" src="images/formation-rh.png"/>
+<div class="formation-card-content">
+<h3>RH, conformité sociale &amp; prévention</h3>
+<h4>
         Handicap, harcèlement, CSSCT, RPS, QVCT, IA/RGPD
       </h4>
-
-      <p class="formation-duration">
+<p class="formation-duration">
         6 semaines
       </p>
-
-      <a href="formation-rh.html" class="card-btn">
+<a class="card-btn" href="formation-rh.html">
   Je découvre la formation
 </a>
-    </div>
-  </div>
-
-  <!-- Carte 3 -->
-
-  <div class="formation-card" data-category="ia" data-duration="10">
-    <img src="Images/formation-Ia.digi.png" alt="Formation IA">
-
-    <div class="formation-card-content">
-      <h3>IA & transformation digitale</h3>
-
-      <h4>
+</div>
+</div>
+<!-- Carte 3 -->
+<div class="formation-card" data-category="ia" data-duration="10">
+<img alt="Formation IA" src="images/formation-Ia.digi.png"/>
+<div class="formation-card-content">
+<h3>IA &amp; transformation digitale</h3>
+<h4>
         IA projet, IA no-code, usages, confidentialité, RGPD
       </h4>
-
-      <p class="formation-duration">
+<p class="formation-duration">
         10 semaines
       </p>
-
-      <a href="formation-Ia.digi.html" class="card-btn">
+<a class="card-btn" href="formation-Ia.digi.html">
   Je découvre la formation
 </a>
-    </div>
-  </div>
-
 </div>
-
-</section>
-
-
-
-
+</div>
+</div>
+</div></div></section>
 <section class="homepage-section-bg">
-  
-  <section class="homepage-widgets">
-
-  <!-- PROCHAINS ÉVÉNEMENTS -->
-  <div class="event-card">
-
-    <div class="event-card-header">
-      <div class="event-icon">📅</div>
-
-      <div>
-        <h3>Prochains événements</h3>
-        <p>Masterclass, webinaires et ateliers</p>
-      </div>
-    </div>
-
-    <div class="event-main">
-
-      <div class="event-date">
-        <span class="month">SEPT</span>
-        <span class="day">24</span>
-        <span class="year">2026</span>
-      </div>
-
-      <div class="event-content">
-
-        <span class="event-tag">
+<section class="homepage-widgets">
+<!-- PROCHAINS ÉVÉNEMENTS -->
+<div class="event-card">
+<div class="event-card-header">
+<div class="event-icon">📅</div>
+<div>
+<h3>Prochains événements</h3>
+<p>Masterclass, webinaires et ateliers</p>
+</div>
+</div>
+<div class="event-main">
+<div class="event-date">
+<span class="month">SEPT</span>
+<span class="day">24</span>
+<span class="year">2026</span>
+</div>
+<div class="event-content">
+<span class="event-tag">
           MASTERCLASS EN LIGNE
         </span>
-
-        <h4>
-          RH & Intelligence Artificielle
+<h4>
+          RH &amp; Intelligence Artificielle
         </h4>
-
-        <p>
+<p>
           Découvrez comment l'IA transforme les pratiques RH et le recrutement.
         </p>
-
-      </div>
-
-    </div>
-
-    <div class="event-places">
+</div>
+</div>
+<div class="event-places">
       👥 12 places restantes
     </div>
-
-    <a href="#" class="event-btn">
+<a class="event-btn" href="#">
       Je m'inscris →
     </a>
-
-  </div>
-
-  <!-- KPI -->
-  <div class="kpi-card">
-
-    <div class="card-title">
+</div>
+<!-- KPI -->
+<div class="kpi-card">
+<div class="card-title">
       📊 KPI qualité
     </div>
-
-    <div class="kpi-grid">
-
-      <div class="kpi-item">
-        <span class="kpi-number">98%</span>
-        <span class="kpi-label">Satisfaction</span>
-      </div>
-
-      <div class="kpi-item">
-        <span class="kpi-number">95%</span>
-        <span class="kpi-label">Recommandation</span>
-      </div>
-
-      <div class="kpi-item">
-        <span class="kpi-number">87%</span>
-        <span class="kpi-label">Objectifs atteints</span>
-      </div>
-
+<div class="kpi-grid">
+<div class="kpi-item">
+<span class="kpi-number">98%</span>
+<span class="kpi-label">Satisfaction</span>
+</div>
+<div class="kpi-item">
+<span class="kpi-number">95%</span>
+<span class="kpi-label">Recommandation</span>
+</div>
+<div class="kpi-item">
+<span class="kpi-number">87%</span>
+<span class="kpi-label">Objectifs atteints</span>
+</div>
+</div>
+</div>
+<!-- ACTUALITÉS -->
+<div class="news-card">
+<div class="card-title">
+      🌐 Actualités &amp; réseaux
     </div>
-
-  </div>
-
-  <!-- ACTUALITÉS -->
-  <div class="news-card">
-
-    <div class="card-title">
-      🌐 Actualités & réseaux
-    </div>
-
-    <div class="news-post">
-
-      <span class="news-tag">
+<div class="news-post">
+<span class="news-tag">
         LinkedIn
       </span>
-
-      <h4>
-        Découvrez notre nouvelle masterclass RH & IA
+<h4>
+        Découvrez notre nouvelle masterclass RH &amp; IA
       </h4>
-
-      <p>
+<p>
         Une session dédiée aux professionnels souhaitant intégrer
         l'intelligence artificielle dans leurs pratiques RH.
       </p>
-
-      <a href="#" class="news-btn">
+<a class="news-btn" href="#">
         Voir l'actualité →
       </a>
-
-    </div>
-
-  </div>
-
+</div>
+</div>
 </section>
- 
-
-
-
 <section class="presentation">
-
-  <div class="presentation-box">
-
-    <div class="presentation-left">
-
-      <span class="presentation-label">
+<div class="presentation-box">
+<div class="presentation-left">
+<span class="presentation-label">
         À PROPOS
       </span>
-
-      <h2>Sina & Prestige</h2>
-
-      <p>
-        Sina & Prestige accompagne les entreprises, écoles et professionnels
+<h2>Sina &amp; Prestige</h2>
+<p>
+        Sina &amp; Prestige accompagne les entreprises, écoles et professionnels
         dans le développement des compétences, la professionnalisation et
         l’adaptation aux transformations du travail.
       </p>
-
-      <p>
+<p>
         Nos formations s’appuient sur les réalités terrain et intègrent les
         enjeux RH, qualité, employabilité, inclusion et usages de
         l’intelligence artificielle.
       </p>
-
-      <div class="presentation-cards">
-
-        <div class="mini-card">
-          <span>👥</span>
-          <p>Expertise RH</p>
-        </div>
-
-        <div class="mini-card">
-          <span>🎓</span>
-          <p>Formations certifiées</p>
-        </div>
-
-        <div class="mini-card">
-          <span>🤝</span>
-          <p>Accompagnement personnalisé</p>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="presentation-right">
-
-      <div class="presentation-circle"></div>
-
-      <div class="presentation-image">
-        <img src="Images/presentation.png" alt="Formation">
-      </div>
-
-    </div>
-
-  </div>
-
+<div class="presentation-cards">
+<div class="mini-card">
+<span><i class="bi bi-person-workspace feature-icon"></i></span>
+<p>Expertise RH</p>
+</div>
+<div class="mini-card">
+<span><i class="bi bi-award-fill feature-icon"></i></span>
+<p>Formations certifiées</p>
+</div>
+<div class="mini-card">
+<span><i class="bi bi-person-check-fill feature-icon"></i></span>
+<p>Accompagnement personnalisé</p>
+</div>
+</div>
+</div>
+<div class="presentation-right">
+<div class="presentation-circle"></div>
+<div class="presentation-image">
+<img alt="Formation" src="Images/presentation.png"/>
+</div>
+</div>
+</div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
 <section class="accompagnement">
-
-  <h2 class="accompagnement-title">
+<h2 class="accompagnement-title">
   Nous vous accompagnons à chaque étape de votre parcours professionnel
 </h2>
-
 <div class="cards-grid">
-
-  <div class="accompagnement-card">
-    <div class="card-icon"><i class="bi bi-briefcase"></i></div>
-
-    <h3>Professionnels</h3>
-
-    <p>
+<div class="accompagnement-card">
+<div class="card-icon"><i class="bi bi-briefcase"></i></div>
+<h3>Professionnels</h3>
+<p>
       Développez vos compétences et sécurisez vos pratiques grâce à des formations adaptées aux réalités de votre métier.
     </p>
-  </div>
-
-  <div class="accompagnement-card">
-    <div class="card-icon"><i class="bi bi-search"></i></div>
-
-    <h3>Demandeurs d'emploi</h3>
-
-    <p>
+</div>
+<div class="accompagnement-card">
+<div class="card-icon"><i class="bi bi-search"></i></div>
+<h3>Demandeurs d'emploi</h3>
+<p>
       Renforcez votre employabilité et développez de nouvelles compétences pour faciliter votre retour à l'emploi.
     </p>
-  </div>
-
-  <div class="accompagnement-card">
-    <div class="card-icon"><i class="bi bi-person"></i></div>
-
-    <h3>Particuliers</h3>
-
-    <p>
+</div>
+<div class="accompagnement-card">
+<div class="card-icon"><i class="bi bi-person"></i></div>
+<h3>Particuliers</h3>
+<p>
       Acquérez de nouvelles connaissances et construisez un projet professionnel ou personnel ambitieux.
     </p>
-  </div>
-
-  <div class="accompagnement-card">
-    <div class="card-icon"><i class="bi bi-people"></i></div>
-
-    <h3>Salariés</h3>
-
-    <p>
+</div>
+<div class="accompagnement-card">
+<div class="card-icon"><i class="bi bi-people"></i></div>
+<h3>Salariés</h3>
+<p>
       Faites évoluer votre carrière grâce à des parcours de formation adaptés à vos objectifs professionnels.
     </p>
-  </div>
-
-  <div class="accompagnement-card">
-    <div class="card-icon"><i class="bi bi-building"></i></div>
-
-    <h3>Écoles & Partenaires</h3>
-
-    <p>
+</div>
+<div class="accompagnement-card">
+<div class="card-icon"><i class="bi bi-building"></i></div>
+<h3>Écoles &amp; Partenaires</h3>
+<p>
       Construisons ensemble des parcours innovants pour accompagner la réussite et l'insertion professionnelle.
     </p>
-  </div>
-
 </div>
-
- <div class="bottom-curve"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+<div class="bottom-curve"></div>
 </section>
-
 <section class="contact-section">
-
-  <div class="contact-container">
-
-    <div class="contact-text">
-      <h2>
-        Passez à l’action, développez vos<br>
+<div class="contact-container">
+<div class="contact-text">
+<h2>
+        Passez à l’action, développez vos<br/>
         compétences.
       </h2>
-
-      <h3>Un accompagnement personnalisé</h3>
-
-      <p>Un suivi avant, pendant et après la formation</p>
-    </div>
-
-    
-    
-    <section class="contact">
-
-  <h2>Échangeons sur votre besoin</h2>
-
-  <form class="contact-form">
-
-    <div class="form-row">
-      <input type="text" placeholder="Nom" required>
-      <input type="text" placeholder="Prénom" required>
-    </div>
-
-    <div class="form-row">
-      <input type="email" placeholder="Email" required>
-      <input type="tel" placeholder="Téléphone">
-    </div>
-
-    <input type="text" placeholder="Structure">
-
-    <input type="text" placeholder="Objet de la demande">
-
-    <textarea placeholder="Votre message..." rows="5"></textarea>
-
-    <!-- CHECKBOX -->
-    <div class="checkbox-group">
-      <label>
-        <input type="checkbox" required>
+<h3>Un accompagnement personnalisé</h3>
+<p>Un suivi avant, pendant et après la formation</p>
+</div>
+<section class="contact">
+<h2>Échangeons sur votre besoin</h2>
+<form class="contact-form">
+<div class="form-row">
+<input placeholder="Nom" required="" type="text"/>
+<input placeholder="Prénom" required="" type="text"/>
+</div>
+<div class="form-row">
+<input placeholder="Email" required="" type="email"/>
+<input placeholder="Téléphone" type="tel"/>
+</div>
+<input placeholder="Structure" type="text"/>
+<input placeholder="Objet de la demande" type="text"/>
+<textarea placeholder="Votre message..." rows="5"></textarea>
+<!-- CHECKBOX -->
+<div class="checkbox-group">
+<label>
+<input required="" type="checkbox"/>
         J’accepte que mes données soient utilisées pour être recontacté (RGPD)
       </label>
-
-      <label>
-        <input type="checkbox">
+<label>
+<input type="checkbox"/>
         J’accepte d’être recontacté pour d’autres informations
       </label>
-    </div>
-
-    <button type="submit">Envoyer</button>
-
-  </form>
-
-  <!-- INFOS -->
-  <div class="contact-info">
-
-    <p>
+</div>
+<button type="submit">Envoyer</button>
+</form>
+<!-- INFOS -->
+<div class="contact-info">
+<p>
       Les informations collectées via ce formulaire sont utilisées uniquement pour traiter
       votre demande. Pour en savoir plus, consultez notre politique de confidentialité.
     </p>
-
-    <p><strong>Email :</strong> contact@sina-prestige.fr</p>
-
-    <p><strong>Délai de réponse :</strong> 24 à 48h</p>
-
-    <p><strong>Accessibilité :</strong> Référent handicap disponible sur demande</p>
-
-  </div>
-
+<p><strong>Email :</strong> contact@sina-prestige.fr</p>
+<p><strong>Délai de réponse :</strong> 24 à 48h</p>
+<p><strong>Accessibilité :</strong> Référent handicap disponible sur demande</p>
+</div>
 </section>
- 
-</section>
+</div></section>
 
-<section class="RPG-section">
 
-  <div class="RPG-container">
 
-    <div class="RPG-content">
 
-      <h3>Qui sommes nous ?</h3>
 
-      <p class="RPG-text">
-        Organisme de formation déclaré sous le numéro NDA : 11 75 73 30 575<br>
-        <strong>SINA & PRESTIGE</strong> accompagne les professionnels,
-        entreprises et établissements dans le développement des compétences
-        et les évolutions de carrière.
-      </p>
 
-      <div class="RPG-links-top">
-        <a href="a propos.html">À propos de nous</a>
-        <a href="Contact.html">Nous contacter</a>
-      </div>
 
-      <div class="RPG-divider"></div>
 
-      <div class="RPG-links-bottom">
-        <a href="confidentialite.html">Politique de confidentialité</a>
-        <a href="mentions-legales.html">Mentions légales</a>
-        <a href="cgv.html">CGV / CGU</a>
-        <a href="reclamations.html">Réclamations</a>
-        <a href="accessibilite.html">Accessibilité / Handicap</a>
-      </div>
 
+</div>
+<section class="footer-cta">
+  <div class="footer-wrap">
+    <div>
+      <h2>Un projet de formation ?</h2>
+      <p>Échangeons ensemble sur vos besoins et trouvons la solution adaptée.</p>
     </div>
-
-    <div class="RPG-qualiopi">
-
-      <img src="Images/Qualiopi.jpg" alt="Certification Qualiopi">
-
-      <h4>Certification Qualiopi</h4>
-
-      <p>
-        Actions de formation certifiées selon le
-        Référentiel National Qualité.
-      </p>
-
-      <a href="https://travail-emploi.gouv.fr/qualiopi" target="_blank">
-        En savoir plus →
-      </a>
-
-    </div>
-
+    <a href="Contact.html" class="footer-cta-btn">Nous contacter</a>
   </div>
-
-  <div class="RPG-bottom-bar">
-    © 2026 SINA & PRESTIGE - Tous droits réservés
-  </div>
-
 </section>
 
+<footer class="sp-footer">
 
+<div class="footer-wrap footer-grid">
 
+<div class="footer-brand">
 
+<img src="Images/logo.png" alt="SINA & PRESTIGE" class="footer-logo">
 
+<p class="footer-description">
+<strong>SINA & PRESTIGE</strong><br>
+Organisme de formation déclaré<br>
+NDA : 11 75 73 30 575
+</p>
 
+<div class="footer-contact">
+<p>📍 Île-de-France</p>
+<p>✉ contact@sinaetprestige.fr</p>
+<p>☎ À compléter</p>
+</div>
 
+<div class="footer-social">
+<a href="#">in</a>
+<a href="#">f</a>
+<a href="#">▶</a>
+<a href="#">◎</a>
+</div>
 
+</div>
 
+<div>
+<h3>Nos services</h3>
+<ul>
+<li><a href="formations.html">Catalogue</a></li>
+<li><a href="webinaires.html">Webinaires</a></li>
+<li><a href="#">Recrutement</a></li>
+<li><a href="#">Accompagnement RH</a></li>
+<li><a href="#">Partenaires</a></li>
+</ul>
+</div>
 
+<div>
+<h3>Informations</h3>
+<ul>
+<li><a href="a propos.html">À propos</a></li>
+<li><a href="Contact.html">Contact</a></li>
+<li><a href="reclamations.html">Réclamations</a></li>
+<li><a href="accessibilite.html">Accessibilité</a></li>
+</ul>
+</div>
 
+<div>
+<h3>Documents</h3>
+<ul>
+<li><a href="mentions-legales.html">Mentions légales</a></li>
+<li><a href="confidentialite.html">Confidentialité</a></li>
+<li><a href="cgv.html">CGV / CGU</a></li>
+</ul>
 
+<div class="footer-qualiopi">
+<img src="Images/Qualiopi CFA.JPG.jpg" alt="Qualiopi">
+<p>Certification Qualiopi</p>
+<a href="https://travail-emploi.gouv.fr/qualiopi" target="_blank">En savoir plus →</a>
+</div>
 
+</div>
 
+</div>
 
+<div class="footer-bottom">
+© 2026 SINA & PRESTIGE — Tous droits réservés
+</div>
 
-
-
-
-
-
-
-
+</footer>
+</section></body></html>
