@@ -309,7 +309,7 @@ body {
 .hero-info-bar{
 
   width:90%;
-  max-width:1400px;
+  max-width:1360px;
 
   margin:-90px auto 0;
 
@@ -471,7 +471,7 @@ body {
 
 /* SECTION */
 .products {
-  padding: 140px 60px 80px;
+  padding: 110px 30px 70px;
   background: #f5f5f6;
 }
 
@@ -697,7 +697,7 @@ body {
 .homepage-widgets{
 
   width:90%;
-  max-width:1400px;
+  max-width:1360px;
 
   margin:80px auto;
 
@@ -1201,7 +1201,7 @@ body {
 .presentation-box{
 
   width:90%;
-  max-width:1700px;
+  max-width:1360px;
 
   margin:auto;
 
@@ -1434,11 +1434,11 @@ body {
 .contact-section {
   width: 100%;
   background: #f5f5f6;
-  padding: 90px 60px 0;
+  padding: 80px 30px 0;
 }
 
 .contact-container {
-  max-width: 1200px;
+  max-width: 1360px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -1624,7 +1624,7 @@ body {
 }
 
 .accompagnement {
-  padding: 0 60px 150px;
+  padding: 0 30px 120px;
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -1672,7 +1672,7 @@ body {
 
 .cards-grid{
 
-  max-width:1600px;
+  max-width:1360px;
 
   margin:80px auto 0;
 
@@ -2312,229 +2312,31 @@ CARTE FORMATION
 
 
 
-
-
-
-/* BARRE BLEUE (contrôle global) */
-.RPG-section {
-  background: #2f4a63;
-  width: 100%;
-   margin-top: 120px;
-  padding-top: 60px;   /* 🔥 hauteur haut */
-  padding-bottom: 20px; /* 🔥 hauteur bas */
-
-  color: #fff;
+.footer-cta{background:#f5f5f6;padding:80px 20px 40px;}
+.footer-wrap{max-width:1360px;margin:auto}
+.footer-cta .footer-wrap{background:linear-gradient(135deg,#3b5d7e,#2f4a63);color:#fff;padding:35px 45px;border-radius:22px;display:flex;justify-content:space-between;align-items:center;gap:20px;box-shadow:0 25px 60px rgba(25,45,70,.15);}
+.footer-cta h2{font-family:'Libre Baskerville',serif;margin:0 0 10px}
+.footer-cta-btn{background:#fff;color:#2f4a63;padding:14px 28px;border-radius:40px;text-decoration:none;font-weight:700}
+.sp-footer{background:#35516d;color:#fff;padding-top:70px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.2fr;gap:50px;padding:0 20px 50px}
+.footer-logo{width:210px;margin-bottom:20px}
+.footer-description,.footer-contact p{color:#dbe7f1;line-height:1.8}
+.sp-footer h3{font-family:'Libre Baskerville',serif;margin-bottom:18px}
+.sp-footer ul{list-style:none;padding:0}
+.sp-footer li{margin:10px 0}
+.sp-footer a{color:#eaf2f8;text-decoration:none}
+.sp-footer a:hover{color:#fff}
+.footer-social{display:flex;gap:12px;margin-top:22px}
+.footer-social a{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.12);font-weight:700}
+.footer-social a:hover{background:#fff;color:#35516d}
+.footer-qualiopi{margin-top:80px;background:rgba(255,255,255,.08);padding:18px;border-radius:16px;text-align:center}
+.footer-qualiopi img{width:160px;margin-bottom:12px}
+.footer-qualiopi a{display:inline-block;margin-top:12px;padding:10px 18px;background:#fff;color:#35516d;border-radius:30px}
+.footer-bottom{text-align:center;padding:22px;border-top:1px solid rgba(255,255,255,.15);color:#dbe7f1}
+@media(max-width:900px){
+.footer-cta .footer-wrap{flex-direction:column;text-align:center}
+.footer-grid{grid-template-columns:1fr;padding:0 25px 40px}
 }
-
-/*  CONTENU (indépendant du fond) */
-/*  CONTENU */
-
-.RPG-container {
-
-  max-width: 1400px;
-
-  margin: auto;
-
-  padding: 0 80px;
-
-  display: flex;
-
-  justify-content: space-between;
-
-  align-items: flex-start;
-
-  gap: 60px;
-}
-
-/* TITRE */
-.RPG-container h3 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 22px;
-  color: #cfe0ef;
-  margin-bottom: 20px;
-}
-
-/* TEXTE */
-.RPG-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  color: #d6e2ec;
-  line-height: 1.6;
-}
-
-/* LIENS HAUT */
-.RPG-links-top {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.RPG-links-top a {
-  font-size: 13px;
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-/* LIGNE */
-.RPG-divider {
-  width: 260px;
-  height: 2px;
-  background: #cfe0ef;
-  margin: 20px 0;
-}
-
-/* LIENS BAS */
-.RPG-links-bottom {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.RPG-links-bottom a {
-  font-size: 13px;
-  color: #cfe0ef;
-  text-decoration: none;
-}
-
-.RPG-links-bottom a:hover {
-  text-decoration: underline;
-}
-
-/* 🔥 BOTTOM BAR */
-.RPG-bottom-bar {
-  margin-top: 40px;
-  padding: 15px 0;
-  text-align: center;
-  font-size: 12px;
-  color: #cfe0ef;
-
-  border-top: 1px solid #4e6b85;
-  background: #2f4a63;
-}
-
-/* Partie gauche */
-
-.RPG-content{
-
-  flex:1;
-
-  max-width:650px;
-}
-
-/* ============================= */
-/* QUALIOPI */
-/* ============================= */
-
-.RPG-qualiopi{
-
-    width:320px;
-
-    background:#3b5874;
-
-    border:1px solid rgba(255,255,255,.15);
-
-    border-radius:18px;
-
-    padding:25px;
-
-    text-align:center;
-
-    flex-shrink:0;
-
-    box-shadow:0 15px 35px rgba(0,0,0,.15);
-}
-
-.RPG-qualiopi img{
-
-    width:170px;
-
-    margin-bottom:18px;
-
-    object-fit:contain;
-}
-
-.RPG-qualiopi h4{
-
-    font-family:'Libre Baskerville', serif;
-
-    color:white;
-
-    font-size:20px;
-
-    margin-bottom:12px;
-}
-
-.RPG-qualiopi p{
-
-    color:#d7e5f2;
-
-    font-size:13px;
-
-    line-height:1.6;
-
-    margin-bottom:18px;
-}
-
-.RPG-qualiopi a{
-
-    display:inline-block;
-
-    padding:10px 18px;
-
-    border-radius:30px;
-
-    background:white;
-
-    color:#2f4a63;
-
-    text-decoration:none;
-
-    font-weight:600;
-
-    transition:.3s;
-}
-
-.RPG-qualiopi a:hover{
-
-    transform:translateY(-2px);
-
-    background:#f3f6f9;
-}
-
-
-
-@media (max-width:768px){
-
-  .RPG-container{
-
-    flex-direction:column;
-
-    padding:0 25px;
-
-    gap:35px;
-  }
-
-  .RPG-content{
-
-    max-width:100%;
-  }
-
-  .RPG-qualiopi{
-
-    width:100%;
-
-    justify-content:center;
-  }
-
-  .RPG-qualiopi img{
-
-    width:180px;
-  }
-
-}
-
-
 
 
 
@@ -3342,7 +3144,7 @@ CARTE FORMATION
 .events-grid{
 
   width:90%;
-  max-width:1400px;
+  max-width:1360px;
 
   margin:80px auto;
 
@@ -3514,7 +3316,7 @@ CARTE FORMATION
 .event-cta{
 
   width:90%;
-  max-width:1400px;
+  max-width:1360px;
 
   margin:0 auto 80px;
 
@@ -3705,4 +3507,34 @@ CARTE FORMATION
 .event-places span{
 
   line-height:1;
+}
+
+/* ===== Harmonisation accueil (v2) ===== */
+.hero-info-bar,
+.homepage-widgets,
+.presentation-box,
+.contact-container,
+.RPG-container,
+.cards-grid{
+    width:min(1360px, calc(100% - 60px));
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.products-container{
+    max-width:1360px;
+    margin:0 auto;
+    gap:50px;
+}
+
+@media (max-width:768px){
+.hero-info-bar,
+.homepage-widgets,
+.presentation-box,
+.contact-container,
+.RPG-container,
+.products-container,
+.cards-grid{
+    width:calc(100% - 32px);
+}
 }
